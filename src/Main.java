@@ -39,16 +39,16 @@ public class Main {
         devMarcelo.inscreverBootcamp(bootcamp);
         devMarcelo.progredir();
         devMarcelo.progredir();
-        System.out.println("Conteúdos Inscritos Marcelo: " + devMarcelo.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos Marcelo: " + devMarcelo.getConteudosConcluidos());
+        System.out.println("\n" + "Conteúdos Inscritos Marcelo: " + "\n" + devMarcelo.getConteudosInscritos());
+        System.out.println("\n" + "Conteúdos Concluídos Marcelo: " + "\n" + devMarcelo.getConteudosConcluidos());
         System.out.println("XP: " + devMarcelo.calcularTotalXp());
 
         Dev devLaurentino = new Dev();
         devLaurentino.setNome("Laurentino");
         devLaurentino.inscreverBootcamp(bootcamp);
         devLaurentino.progredir();
-        System.out.println("Conteúdos Inscritos Laurentino: " + devLaurentino.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos Laurentino: " + devLaurentino.getConteudosConcluidos());
+        System.out.println("\n" + "Conteúdos Inscritos Laurentino: " + "\n" + devLaurentino.getConteudosInscritos());
+        System.out.println("\n" + "Conteúdos Concluídos Laurentino: " + "\n" + devLaurentino.getConteudosConcluidos());
         System.out.println("XP: " + devLaurentino.calcularTotalXp());
     }
 }
